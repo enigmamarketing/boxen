@@ -45,7 +45,7 @@ github "gcc",         "2.2.0"
 github "git",         "2.7.5"
 github "go",          "2.1.0"
 github "homebrew",    "1.11.2"
-github "hub",         "1.4.1"
+github "hub",         "1.4.0"
 github "inifile",     "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",       "1.4.4"
 github "nodejs",      "4.0.0"
@@ -58,8 +58,6 @@ github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
-# Optional/custom modules. There are tons available at
-# https://github.com/boxen.
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
@@ -93,3 +91,4 @@ github "pcre"
 github "libpng"
 github "mysql"
 github "php"
+
