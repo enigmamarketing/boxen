@@ -18,6 +18,7 @@ class people::relvao::applications {
   include virtualbox
   include elasticsearch
   include vagrant
+  include ansible
   
   package { 'docker':
     ensure => present,
@@ -66,9 +67,6 @@ class people::relvao::applications {
   # Use the old flat dock style
   include osx::dock::2d 
 
-  # Automatically hide the dock
-  include osx::dock::autohide
-  
   # Ensures the dock only contains apps that are running
   include osx::dock::clear_dock
   
