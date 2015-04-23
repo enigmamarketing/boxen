@@ -224,6 +224,11 @@ GITHUBTARBALL
     java6 (1.0.0)
 
 GITHUBTARBALL
+  remote: gaahrdner/puppet-ansible
+  specs:
+    ansible (0.0.1)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.1.1)
@@ -239,6 +244,7 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
+  ansible (= 0.0.1)
   autoconf (>= 0)
   boxen (= 3.10.2)
   brewcask (= 0.0.6)

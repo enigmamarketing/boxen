@@ -82,7 +82,7 @@ github "java6",             "1.0.0", :repo => "cylentsystems/puppet-java6"
 github "mongodb",           "1.3.3"
 github "elasticsearch",     "2.7.1"
 github "osx",               "2.8.0"
-github "ansible",           "0.0.4", :repo => "steinim/puppet-ansible"
+github "ansible",           "0.0.1", :repo => "gaahrdner/puppet-ansible"
 
 # Deps all required for PHP
 github "wget"
