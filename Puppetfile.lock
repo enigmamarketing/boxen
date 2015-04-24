@@ -39,11 +39,6 @@ GITHUBTARBALL
     elasticsearch (2.7.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-firefox
-  specs:
-    firefox (1.2.3)
-
-GITHUBTARBALL
   remote: boxen/puppet-foreman
   specs:
     foreman (1.2.0)
@@ -254,7 +249,6 @@ DEPENDENCIES
   docker (>= 0)
   dropbox (>= 0)
   elasticsearch (= 2.7.1)
-  firefox (>= 0)
   foreman (= 1.2.0)
   gcc (= 2.2.0)
   git (= 2.7.5)

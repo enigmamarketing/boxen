@@ -162,6 +162,11 @@ class people::relvao::applications {
   ###########################    PHP   ###########################
   
   include php
+  include php::fpm::5_5_9
+  # Install a php version and set as the global default php
+  class { 'php::global':
+    version => '5.5.9'
+  }
   
   include php::composer
 
