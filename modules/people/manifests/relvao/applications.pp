@@ -165,4 +165,10 @@ class people::relvao::applications {
   
   include php::composer
 
+
+  ###########################    Mysql   ###########################
+  include mysql
+
+  mysql::db { 'mydb': }
+
 }
