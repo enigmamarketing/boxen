@@ -1,4 +1,4 @@
-class people::relvao::applications {
+class people::enigmamkt::applications {
   ############################    Software   ############################
 
   include chrome
