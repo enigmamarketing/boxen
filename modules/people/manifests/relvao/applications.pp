@@ -176,4 +176,17 @@ class people::relvao::applications {
 
   mysql::db { 'mydb': }
 
+  ###########################    Mysql   ###########################
+  sublime_text_2::package { 'Emmet':
+    source => 'sergeche/emmet-sublime'
+  }  
+  sublime_text_2::package { 'HTMLBeautify':
+    source => 'rareyman/HTMLBeautify'
+  }
+  sublime_text_2::package { 'Javascript Beautify':
+    source => 'enginespot/js-beautify-sublime'
+  }
+  sublime_text_2::package { 'sublime-jslint':
+    source => 'fbzhong/sublime-jslint'
+  }
 }
