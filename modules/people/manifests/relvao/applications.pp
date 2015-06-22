@@ -189,4 +189,7 @@ class people::relvao::applications {
   sublime_text_2::package { 'sublime-jslint':
     source => 'fbzhong/sublime-jslint'
   }
+  sublime_text_2::package { 'DocBlockr':
+    source => 'spadgos/sublime-jsdocs'
+  }
 }
