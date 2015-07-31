@@ -6,9 +6,9 @@ class people::dotcomjohn {
     include git
 
     git::config::global { 'user.email':
-        value  => ‘johndc@enigma-marketing.co.uk'
+        value  => 'johndc@enigma-marketing.co.uk'
     }
     git::config::global { 'user.name' :
-        value  => ‘John de Clerck’
+        value  => 'John de Clerck'
     }
 }
