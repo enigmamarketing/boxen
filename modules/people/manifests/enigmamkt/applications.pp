@@ -176,7 +176,7 @@ class people::enigmamkt::applications {
 
   mysql::db { 'mydb': }
 
-  ###########################    Mysql   ###########################
+  ###########################    Sublime   ###########################
   sublime_text_2::package { 'Emmet':
     source => 'sergeche/emmet-sublime'
   }  
