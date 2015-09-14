@@ -1,4 +1,4 @@
-class people::stvwlkr::applications {
+class people::chapmanio::applications {
   ############################    Software   ############################
 
   include chrome
@@ -176,7 +176,7 @@ class people::stvwlkr::applications {
 
   mysql::db { 'mydb': }
 
-  ###########################    Sublime   ###########################
+  ###########################    Mysql   ###########################
   sublime_text_2::package { 'Emmet':
     source => 'sergeche/emmet-sublime'
   }
