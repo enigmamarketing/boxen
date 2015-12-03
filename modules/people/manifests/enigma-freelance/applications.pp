@@ -1,4 +1,4 @@
-class people::relvao::applications {
+class people::enigma-freelance::applications {
   ############################    Software   ############################
 
   include chrome
@@ -8,7 +8,9 @@ class people::relvao::applications {
   include dropbox
   include spectacle
   include vlc
+  include phantomjs
   include nmap
+  include sublime_text_2
   include skype
   include mongodb
   include homebrew
@@ -158,8 +160,8 @@ class people::relvao::applications {
   }
 
   ###########################    PHP   ###########################
+  
   include php
-
   include php::fpm::5_5_9
   # Install a php version and set as the global default php
   class { 'php::global':
@@ -175,8 +177,6 @@ class people::relvao::applications {
   mysql::db { 'mydb': }
 
   ###########################    Sublime   ###########################
-  include sublime_text_2
-
   sublime_text_2::package { 'Emmet':
     source => 'sergeche/emmet-sublime'
   }  
@@ -189,11 +189,4 @@ class people::relvao::applications {
   sublime_text_2::package { 'sublime-jslint':
     source => 'fbzhong/sublime-jslint'
   }
-  sublime_text_2::package { 'DocBlockr':
-    source => 'spadgos/sublime-jsdocs'
-  }
-  ##########################     PhantomJs    ####################
-  include phantomjs
-  
-  phantomjs::global { '1.9.0': }
 }
