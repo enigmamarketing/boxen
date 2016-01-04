@@ -18,7 +18,7 @@ and detect most of these and tell you anyway):
 * Boxen __may not__ play nice with an existing nvm install.
 * Boxen __recommends__ installing the full Xcode.
 
-### Instalation
+### Installation
 You should get access to an OSX 10.10 usb instalation pen and version 6 of xcode and xcode command line tools.
 
 Restart your server and clean your disk, using the utility tool (press cmd+R on boot). **You need to choose the encrypted format**.
